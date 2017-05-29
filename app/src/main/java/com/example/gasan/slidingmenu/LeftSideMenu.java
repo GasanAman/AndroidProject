@@ -158,6 +158,9 @@ public class LeftSideMenu extends AppCompatActivity
         } else if (id == R.id.nav_tentang) {
             TentangFragment tentangFrag = new TentangFragment();
             callFragment(tentangFrag);
+        } else if (id == R.id.nav_visi) {
+            VisiMisiFragment visiMisiFrag = new VisiMisiFragment();
+            callFragment(visiMisiFrag);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

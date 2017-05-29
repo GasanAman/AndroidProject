@@ -26,7 +26,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="4dp"
-            android:background="@color/colorPrimaryDark"/>
+            android:background="@android:color/holo_red_dark" />
     </LinearLayout>
 
     <ScrollView
@@ -45,21 +45,23 @@
             <ImageView
                 android:id="@+id/logogn"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="160dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 app:srcCompat="@drawable/logo_green_nitrogen" />
 
             <TextView
                 android:id="@+id/paragraf1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/paragraf_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
                 android:layout_below="@+id/logogn"
+                android:layout_marginBottom="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                />
+                android:text="@string/paragraf_1"
+                android:textAlignment="textStart" />
 
             <TextView
                 android:id="@+id/paragraf2"
@@ -67,6 +69,17 @@
                 android:layout_height="match_parent"
                 android:text="@string/paragraf_2"
                 android:layout_below="@+id/paragraf1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/paragraf3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/paragraf_3"
+                android:layout_below="@+id/paragraf2"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
