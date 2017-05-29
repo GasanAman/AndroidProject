@@ -155,6 +155,9 @@ public class LeftSideMenu extends AppCompatActivity
         } else if (id == R.id.nav_asuransi) {
             AsuransiFragment asuransiFrag = new AsuransiFragment();
             callFragment(asuransiFrag);
+        } else if (id == R.id.nav_tentang) {
+            TentangFragment tentangFrag = new TentangFragment();
+            callFragment(tentangFrag);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

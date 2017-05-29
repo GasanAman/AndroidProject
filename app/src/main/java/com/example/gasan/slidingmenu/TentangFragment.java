@@ -17,13 +17,17 @@ public class TentangFragment extends Fragment {
     public TentangFragment() {
         // Required empty public constructor
     }
-
+    View rootView;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tentang, container, false);
+        rootView = inflater.inflate(R.layout.fragment_tentang, container, false);
+
+        getActivity().setTitle("Tentang Kami");
+
+        return rootView;
     }
 
 }
