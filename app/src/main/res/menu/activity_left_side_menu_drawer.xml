@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+    </group>
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/nav_peta"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Peta Jaringan Green Nitrogen" />
+            <item
+                android:id="@+id/nav_berita"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Berita" />
+            <item
+                android:id="@+id/nav_award"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Award" />
+            <item
+                android:id="@+id/nav_promo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Promo" />
+            <item
+                android:id="@+id/nav_garansi"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Garansi" />
+            <item
+                android:id="@+id/nav_asuransi"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Asuransi" />
+            <item
+                android:id="@+id/nav_bisnis"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Bisnis Kerja Sama" />
+        </menu>
+    </item>
+
+    <item android:title="Layanan">
+        <menu>
+            <item
+                android:id="@+id/nav_produk"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Produk dan Layanan" />
+            <item
+                android:id="@+id/nav_carwash"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Car Wash" />
+        </menu>
+    </item>
+
+    <item android:title="Profil">
+        <menu>
+            <item
+                android:id="@+id/nav_tentang"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Tentang Kami" />
+            <item
+                android:id="@+id/nav_visi"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Visi dan Misi" />
+            <item
+                android:id="@+id/nav_unit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Unit Kerja Strategis" />
+            <item
+                android:id="@+id/nav_galeri"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Galeri Foto" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hubungi"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Hubungi Kami" />
+    </group>
+
+    <item android:title="Comment of The Week">
+        <menu>
+            <item
+                android:id="@+id/nav_steamwash"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Green Steam Wash" />
+            <item
+                android:id="@+id/nav_testimoni"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Testimoni Pelanggan" />
+            <item
+                android:id="@+id/nav_isu_palsu"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Isu Nitrogen Palsu" />
+            <item
+                android:id="@+id/nav_outlet_palsu"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Isu Nitrogen Palsu" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_member"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Member" />
+        <item
+            android:id="@+id/nav_karir"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Karir" />
+    </group>
+
+</menu>
